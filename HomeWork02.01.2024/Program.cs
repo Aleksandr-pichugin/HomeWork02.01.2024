@@ -24,6 +24,7 @@ namespace HomeWork02._01._2024
 			}
 			Console.WriteLine(result);
 			Console.Read(); 
+			}
 #endif
 #if CALCULATOR
 			double a;
@@ -60,9 +61,10 @@ namespace HomeWork02._01._2024
 				case '*':
 					total = a * b;
 					Console.WriteLine("Ответ: " + (a) + "*" + (b) + "=" + (total)); break; 
+					}
 #endif
 
-			}
+			
 		}
 	}
 }
